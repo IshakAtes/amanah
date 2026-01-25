@@ -9,6 +9,7 @@ import { Footer } from '../footer/footer';
 
 @Component({
   selector: 'app-landingpage',
+  standalone: true,
   imports: [NavBar, Header, Focus, Collaboration, Team, Contact, Footer],
   templateUrl: './landingpage.html',
   styleUrl: './landingpage.scss',
