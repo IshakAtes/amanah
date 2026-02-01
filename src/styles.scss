@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 // colors: {
 //   yellow-950: #78350f,
 //   amber-600: #d97706,
