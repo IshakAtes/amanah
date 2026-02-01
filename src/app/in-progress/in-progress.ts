@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-footer',
+  selector: 'app-in-progress',
   standalone: true,
   imports: [RouterLink],
-  templateUrl: './footer.html',
-  styleUrl: './footer.scss',
+  templateUrl: './in-progress.html',
+  styleUrl: './in-progress.scss',
 })
-export class Footer {
+export class InProgress {
 
 }
