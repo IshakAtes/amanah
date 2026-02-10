@@ -5,6 +5,8 @@ import { Donation } from './donation/donation';
 import { InProgress } from './in-progress/in-progress';
 import { AboutUs } from './about-us/about-us';
 import { JobsPage } from './jobs-page/jobs-page';
+import { Imprint } from './imprint/imprint';
+import { PrivacyPolicy } from './privacy-policy/privacy-policy';
 
 export const routes: Routes = [
     {path: '', component: Landingpage },
@@ -13,5 +15,7 @@ export const routes: Routes = [
     {path: 'in-progress', component: InProgress},
     {path: 'about-us', component: AboutUs},
     {path: 'jobs-page', component: JobsPage},
+    {path: 'imprint', component: Imprint},
+    {path: 'privacy-policy', component: PrivacyPolicy},
     {path: '**', redirectTo: 'landingpage' },
 ];
