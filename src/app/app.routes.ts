@@ -7,6 +7,7 @@ import { AboutUs } from './about-us/about-us';
 import { JobsPage } from './jobs-page/jobs-page';
 import { Imprint } from './imprint/imprint';
 import { PrivacyPolicy } from './privacy-policy/privacy-policy';
+import { Mentoring } from './mentoring/mentoring';
 
 export const routes: Routes = [
     {path: '', component: Landingpage },
@@ -17,5 +18,6 @@ export const routes: Routes = [
     {path: 'jobs-page', component: JobsPage},
     {path: 'imprint', component: Imprint},
     {path: 'privacy-policy', component: PrivacyPolicy},
+    {path: 'mentoring', component: Mentoring},
     {path: '**', redirectTo: 'landingpage' },
 ];
