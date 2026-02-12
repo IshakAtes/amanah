@@ -8,10 +8,30 @@
     </a>
 
     <nav class="hidden gap-12 lg:flex">
-      <a [routerLink]="['/']" class="text-lg font-semibold text-amber-500">Home</a>
-      <a [routerLink]="['/jobs-page']" class="text-lg font-semibold text-gray-600 hover:text-amber-500">Jobs</a>
-      <a [routerLink]="['/donation']" class="text-lg font-semibold text-gray-600 hover:text-amber-500">Spende</a>
-      <a [routerLink]="['/about-us']" class="text-lg font-semibold text-gray-600 hover:text-amber-500">Über uns</a>
+      <a [routerLink]="['/']" 
+        routerLinkActive="active-link" 
+        [routerLinkActiveOptions]="{exact: true}"
+        class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-amber-500">
+        Home
+      </a>
+
+      <a [routerLink]="['/jobs-page']" 
+        routerLinkActive="active-link" 
+        class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-amber-500">
+        Jobs
+      </a>
+
+      <a [routerLink]="['/donation']" 
+        routerLinkActive="active-link" 
+        class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-amber-500">
+        Spende
+      </a>
+
+      <a [routerLink]="['/about-us']" 
+        routerLinkActive="active-link" 
+        class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-amber-500">
+        Über uns
+      </a>
     </nav>
 
     <div class="hidden lg:block">
