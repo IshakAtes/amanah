@@ -9,5 +9,8 @@ import { RouterLink } from '@angular/router';
   styleUrl: './focus.scss',
 })
 export class Focus {
+  scrollToTop() {
+    window.scrollTo(0, 0);
+  }
 
 }

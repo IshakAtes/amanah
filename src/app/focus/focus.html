@@ -19,7 +19,7 @@
 
       <!-- feature - start -->
       <div class="flex flex-col rounded-lg border border-amber-500 p-4 md:p-6">
-        <h3 class="mb-2 text-lg font-bold md:text-xl text-amber-700">Dialog</h3>
+        <h3 class="mb-2 text-lg font-bold md:text-xl text-amber-700">Brückenbau</h3>
         <p class="mb-4 text-gray-500">Wir fördern den Dialog zwischen Muslimen und Nicht-Muslimen und klären Missverständnisse auf.</p>
         <a [routerLink]="['/in-progress']" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">Mehr erfahren</a>
       </div>
@@ -31,7 +31,7 @@
         <p class="mb-4 text-gray-500">
           Du bist neu im Islam oder suchst Orientierung? Unsere Mentoren begleiten dich schrittweise auf deinem Weg und beantworten deine Fragen im persönlichen Gespräch.
         </p>
-        <a [routerLink]="['/mentoring']" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">
+        <a [routerLink]="['/mentoring']" (click)="scrollToTop()" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">
           Termin vereinbaren
         </a>
       </div>
