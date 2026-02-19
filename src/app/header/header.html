@@ -12,13 +12,13 @@
 
       <!-- text start -->
       <div class="relative flex flex-col items-center p-4 sm:max-w-xl">
-        <p class="mb-4 text-center text-lg text-amber-200 sm:text-xl md:mb-8">Willkommen bei</p>
-        <h1 class="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">AMANAH</h1>
+        <p class="mb-4 text-center text-lg text-white sm:text-xl md:mb-8">Gemeinsam können wir eine positive Veränderung bewirken.</p>
+        <h1 class="mb-8 text-center text-4xl font-bold text-white sm:text-5xl md:mb-12 md:text-6xl">Trage mit uns die AMANAH</h1>
 
         <div class="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
-          <a href="#" class="inline-block rounded-lg bg-amber-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-amber-300 transition duration-100 hover:bg-amber-600 focus-visible:ring active:bg-amber-700 md:text-base">Start now</a>
+          <a [routerLink]="['/support-us']" class="inline-block rounded-lg bg-amber-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-amber-300 transition duration-100 hover:bg-amber-600 focus-visible:ring active:bg-amber-700 md:text-base">Mitglied werden</a>
 
-          <a href="#" class="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-amber-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base">Take tour</a>
+          <a [routerLink]="['/donation']" class="inline-block rounded-lg bg-emerald-600 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-emerald-300 transition duration-100 hover:bg-emerald-700 focus-visible:ring active:bg-emerald-800 md:text-base">Spende</a>
         </div>
       </div>
       <!-- text end -->
