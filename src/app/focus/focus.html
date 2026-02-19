@@ -1,0 +1,65 @@
+<div class="bg-white py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+    <!-- text - start -->
+    <div class="mb-10 md:mb-16">
+      <h2 class="mb-4 text-center text-2xl font-bold text-amber-700 md:mb-6 lg:text-3xl">Was wir tun</h2>
+
+      <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">Unsere Hauptaktivitäten und -programme</p>
+    </div>
+    <!-- text - end -->
+
+    <div class="grid gap-4 sm:grid-cols-2 md:gap-8 xl:grid-cols-3">
+      <!-- feature - start -->
+      <div class="flex flex-col rounded-lg border border-amber-500 p-4 md:p-6">
+        <h3 class="mb-2 text-lg font-bold md:text-xl text-amber-700">Bildung</h3>
+        <p class="mb-4 text-gray-500">Wir fördern die Aus- und Weiterbildung muslimischer Familien und Jugendlicher.</p>
+        <a [routerLink]="['/in-progress']" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">Mehr erfahren</a>
+      </div>
+      <!-- feature - end -->
+
+      <!-- feature - start -->
+      <div class="flex flex-col rounded-lg border border-amber-500 p-4 md:p-6">
+        <h3 class="mb-2 text-lg font-bold md:text-xl text-amber-700">Brückenbau</h3>
+        <p class="mb-4 text-gray-500">Wir fördern den Dialog zwischen Muslimen und Nicht-Muslimen und klären Missverständnisse auf.</p>
+        <a [routerLink]="['/in-progress']" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">Mehr erfahren</a>
+      </div>
+      <!-- feature - end -->
+
+      <!-- feature - start -->
+      <div class="flex flex-col rounded-lg border border-amber-500 p-4 md:p-6">
+        <h3 class="mb-2 text-lg font-bold md:text-xl text-amber-700">Mentoring</h3>
+        <p class="mb-4 text-gray-500">
+          Du bist neu im Islam oder suchst Orientierung? Unsere Mentoren begleiten dich schrittweise auf deinem Weg und beantworten deine Fragen im persönlichen Gespräch.
+        </p>
+        <a [routerLink]="['/mentoring']" (click)="scrollToTop()" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">
+          Termin vereinbaren
+        </a>
+      </div>
+      <!-- feature - end -->
+
+      <!-- feature - start -->
+      <div class="flex flex-col rounded-lg border border-amber-500 p-4 md:p-6">
+        <h3 class="mb-2 text-lg font-bold md:text-xl text-amber-700">Unterrichte</h3>
+        <p class="mb-4 text-gray-500">Wir produzieren sachliche Aufklärungsvideos, um Missverständnisse zu beseitigen.</p>
+        <a href="https://www.youtube.com/@Amanah_de" target="_blank" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">Videos ansehen</a>
+      </div>
+      <!-- feature - end -->
+
+      <!-- feature - start -->
+      <div class="flex flex-col rounded-lg border border-amber-500 p-4 md:p-6">
+        <h3 class="mb-2 text-lg font-bold md:text-xl text-amber-700">Gemeinschaft</h3>
+        <p class="mb-4 text-gray-500">Wir sind eine Gemeinschaft von engagierten Menschen, die sich für eine bessere Zukunft einsetzen.</p>
+        <a [routerLink]="['/in-progress']" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">Unsere Gemeinschaft kennenlernen</a>
+      </div>
+      <!-- feature - end -->
+
+      <!-- feature - start -->
+      <div class="flex flex-col rounded-lg border border-amber-500 p-4 md:p-6">
+        <h3 class="mb-2 text-lg font-bold md:text-xl text-amber-700">Partnerschaften</h3>
+        <p class="mb-4 text-gray-500">Wir arbeiten mit einer Vielzahl von Partnern zusammen, um unsere Ziele zu erreichen.</p>
+        <a [routerLink]="['/in-progress']" class="mt-auto font-bold text-amber-500 transition duration-100 hover:text-amber-600 active:text-amber-700">Unsere Kooperationen</a>
+      </div>
+      <!-- feature - end -->
+    </div>
+  </div>
+</div>
